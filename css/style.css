@@ -1,0 +1,218 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #1C2C40;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 400;
+}
+input,textarea,select{
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+a{
+	color: #1C2C40;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "Circular-Std-Regular", Arial;
+	font-weight: 400;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	/* max-width:1100px; */
+}
+@font-face {
+	font-family: 'Circular-Std-Regular';
+	src:url('../fonts/CircularStd-Regular.woff2') format('woff2');
+	src:url('../fonts/CircularStd-Regular.woff') format('woff');
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Circular-Std-Bold';
+    src: url("../fonts/CircularStd-Bold.woff2") format("woff2");
+    src: url("../fonts/CircularStd-Bold.woff") format("woff");
+    font-style: normal
+}
+#main{
+
+}
+#main header{
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 0;
+}
+#main header h1 a{
+
+}
+#main header h1 a img{
+
+}
+#main header ul{
+	display: flex;
+	justify-content: space-between;
+}
+#main header ul li{
+	margin-right: 20px;
+	font-size: 16px;
+}
+#main header ul li a{
+	color: #8b8b9d;
+} 
+#main header div.right{
+
+} 
+#main header div.right a{
+	margin-right: 20px;
+	font-size: 16px;
+	color: #8b8b9d;
+}
+#main header div.right a.button{
+	border: 0.5px solid black;
+    padding: 9px 17px;
+    border-radius: 20px;
+    color: #0073ff;
+}
+#main section.spotlight{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 90px;
+	padding-bottom: 40px;
+}
+#main section.spotlight div.left{
+	width: 50%;
+}
+#main section.spotlight div.left h2{
+	font-size: 55px;
+	font-weight: 1000;
+	font-family: 'Circular-Std-Bold';
+}
+#main section.spotlight div.left p{
+	color: #888a98;
+	font-size: 16px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	width: 75%;
+}
+#main section.spotlight div.left a.button{
+	background: #0020ff;
+    padding: 12px 20px;
+    color: white;
+    border-radius: 20px;
+
+}
+#main section.spotlight div.left div.check{
+	margin-top: 50px;
+
+}
+#main section.spotlight div.left div.check span{
+	display: block;
+	margin-bottom: 5px;
+	color: #8b8b9d;	
+}
+#main section.spotlight div.left div.check span img{
+	width: 18px;
+	margin-right: 10px;
+}
+#main section.spotlight div.right{
+	background: #e3e3e3;
+	padding: 0px 0;
+	height: 534px;
+	position: relative;
+	right: -212px;
+}
+#main section.spotlight div.right div.container{
+	background-color: #e3e3e3;
+	position: relative;
+}
+#main section.spotlight div.right div.container img{
+
+}
+#main section.spotlight div.right div.container img.mesh{
+	position: absolute;
+	top: 291px;
+	right: 280px;
+	width: 184px;
+}
+#main section.spotlight div.right div.container img.image{
+	width: 60%;
+	position: absolute;
+	top: -71px;
+	left: -75px;
+}
+#main section.spotlight div.right div.quote{
+	background-color: #0a083a;
+	width: 50%;
+	padding: 18px;
+	color: white;
+	position: relative;
+	top: 290px;
+	left: -156px;
+}
+#main section.spotlight div.right div.quote img{
+	position: absolute;
+	top: -16px;
+	left: -27px;
+	width: 17%;
+}
+}
+#main section.spotlight div.right div.quote p{
+	margin-bottom: 25px;
+	
+}
+#main section.spotlight div.right div.quote h4{
+
+}
+#main section.spotlight div.right div.quote small{
+
+}
+
+
+
+
+
+
+
+
