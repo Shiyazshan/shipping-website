@@ -117,7 +117,7 @@ br.clear {
 }
 #main section.spotlight{
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	padding-top: 90px;
 	padding-bottom: 40px;
 }
